@@ -1,0 +1,120 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display:none;
+}
+/*  header part start from here   */
+.heading{
+    height:8vmin;
+    width:100%;
+    background-color:aqua;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:0.1px solid black;
+}
+#heading{
+text-transform:uppercase;
+font-size:3vmin;
+font-family: 'Courier New', Courier, monospace;
+font-weight:800
+}
+/* Main div container start from here*/
+main{
+    height:84vh;
+    width:100%;
+    background-color:aliceblue;
+}
+.parent{
+    height:84vmin;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+#child1{
+    height:84vmin;
+    width:60%;
+    background-color:aqua;
+}
+#head1{
+    font-size:2.5vmin;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-top:2vmin;
+}
+.typing_section{
+    text-align:center;
+}
+#textarea{
+    height:40vmin;
+    width:80%;
+    margin-top:4rem;
+    font-size:2.5vmin;
+    font-weight:600;
+    color:black;
+    background-color:aliceblue;
+    padding:2vmin;
+
+}
+#btn{
+    height:6vmin;
+    width:10vmin;
+    background-color:yellow;
+    border-radius:0.5rem;
+    margin-left:-1.5vmin;
+    margin-top:1rem;
+}
+#showSentence{
+    font-size:3.4vmin;
+    margin:2rem 0;
+    letter-spacing:0.02rem;
+    text-align:center;
+}
+#child2{
+    height:84vmin;
+    width:40%;
+    background-color:aliceblue;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.result{
+    background-color:aqua;
+    height:40vmin;
+    width:80%;
+    border:0.5px solid black;
+    border-radius:1rem;
+}
+#result_heading{
+    font-size:3vmin;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    margin-left:8.5rem;
+    position:absolute;
+}
+#score1,#score2,#score3{
+    font-size:3vmin;
+    margin-top:1.5rem;
+    letter-spacing:0.02rem;
+    text-align:center;
+}
+/*Footer part start from here*/
+footer{
+    height:8vmin;
+    width:100%;
+    background-color:aqua;
+    border:0.1px solid black;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.logo{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight:800;
+}
